@@ -1,0 +1,51 @@
+{
+"student": {
+    "name": "Nazar Khmil",
+    "age": 18,
+    "gender": "Male",
+    "grades": [85, 90, 92, 88, 89],
+    "subjects": ["Math", "Science", "English", "Ukrainian", "History"],
+    "address": {
+      "street": "123 Valova St",
+      "city": "Kyiv",
+      "state": "Kyivska",
+      "country": "Ukraine", 
+	  "zipCode": "03346"
+    },
+    "contactNumbers": {
+      "home": "123-456-7890",
+      "mobile": "987-654-3210"
+    }
+
+ }
+}
+{
+ "$schema": "http://json-schema.org/draft-04/schema#",
+ "title": "Product",
+ "description": "A product from Acme's catalog",
+ "type": "object",
+ "properties": {
+ "id": {
+ "description": "The unique identifier for a 
+product",
+ "type": "integer"
+ },
+ "name": {
+ "description": "Name of the product",
+ "type": "string"
+ },
+ "price": {
+ "type": "number",
+ "minimum": 0,
+ "exclusiveMinimum": true
+ }
+ },
+ "required": ["id", "name", "price"]
+}
+	
+	
+	
+	
+	
+	
+}
