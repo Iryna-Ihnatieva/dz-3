@@ -1,0 +1,26 @@
+{
+  "student": {
+    "name": "Nazar Khmil",
+    "age": 18,
+    "gender": "Male",
+    "grades": {
+      "grade1": 85,
+      "grade2": 90,
+      "grade3": 92,
+      "grade4": 88,
+	  "grade5": 89
+    },
+    "subjects": ["Math", "Science", "English","Ukrainian","History"],
+    "address": {
+      "street": "123 Valova St",
+      "city": "Kyiv",
+      "state": "Kyivska",
+      "country": "UA"
+	  "zipCode": "03336"
+    },
+    "contactNumbers": [
+      {"type": "home", "number": "123-456-7890"},
+      {"type": "mobile", "number": "987-654-3210"}
+    ]
+  }
+}

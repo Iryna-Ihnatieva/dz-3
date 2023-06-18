@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<student>
+  <name>Nazar Khmil</name>
+  <age>18</age>
+  <gender>Male</gender>
+  <grades>
+    <grade value="85" />
+    <grade value="90" />
+    <grade value="92" />
+    <grade value="88" />
+	<grade value="89" />
+  </grades>
+  <subjects>
+    <subject code="M">Math</subject>
+    <subject code="S">Science</subject>
+    <subject code="E">English</subject>
+	<subject code="U">Ukrainian</subject>
+	<subject code="H">History</subject>
+  </subjects>
+  <address>
+    <street>123 Valova St</street>
+    <city>Kyiv</city>
+    <state>Kyivska</state>
+    <country>UA</country>
+	<zipCode>03336</zipCode>
+  </address>
+  <contactNumbers>
+    <contact type="home">123-456-7890</contact>
+    <contact type="mobile">987-654-3210</contact>
+  </contactNumbers>
+</student>

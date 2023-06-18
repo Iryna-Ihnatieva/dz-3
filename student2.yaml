@@ -1,0 +1,20 @@
+student:
+  name: Nazar Khmil
+  age: 18
+  gender: Male
+  grades:
+    - Math: 85
+    - Science: 90
+    - English: 92
+    - Ukrainian: 88
+    - History: 89
+  subjects: [Mathematics, Science & Technology, English Language, Ukrainian, History]
+  address:
+    street: 123 Valova St
+    city: Kyiv
+    state: Kyivska
+    country: UA
+    zipCode: 03336
+  contactNumbers:
+    home: 123-456-7890
+    mobile: 987-654-3210
